@@ -54,7 +54,7 @@ $ git config --global user.email "<e-mail>"
 Clone und Pull eines Reporitorys
 ```
 $ git clone https://gitlab.com/ch-tbz-it/Stud/m300/
-$ cd M300           # In das Verzeichniss wechseln
+$ cd M300  
 $ git pull
 ```
 **Repository Push**
@@ -79,3 +79,12 @@ $  git status                      # Dateien werden nun als "zum Pushen bereit" 
 $  git push                        #Upload bzw. Push wird durchgeführt
 ```
 
+---
+
+03 - VirtualBox
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+Ich habe zuerst Virtualbox installiert
+![Virtualbox installed](./Bilder/Virtualbox.png)
