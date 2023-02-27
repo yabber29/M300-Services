@@ -88,3 +88,19 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 
 Ich habe zuerst Virtualbox installiert
 ![Virtualbox installed](./Bilder/Virtualbox.png)
+
+Und dannach eine VM manuell erstell
+![VM manuell installed](./Bilder/VM-manuell.png)
+
+Hier hatte ich einige Probleme, da in der Anleitung stand das die VM 10 GB an Speicherplatz benötigt, doch ist die mindestanforderung 25GB.
+Durch diesen Fehler konnte die VM nicht richtig starten und hatte dauernd einen Fehler.
+
+---
+
+04 - Vagrant
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtualisierung wie VirtualBox oder VMware fernsteuern kann. Auf dem Weg ermöglicht es das automatisierte Erstellen von virtuellen Maschinen an Hand einer zuvor erzeugten Konfigurationsdatei.
+![VM automatically installed](./Bilder/VM-Vagrant.png)
