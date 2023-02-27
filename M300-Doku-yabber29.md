@@ -13,5 +13,9 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die es zur Einrichtung e
 
 ---
 
-![](./Bilder/01-github.png "Github") 01 - Github
+01 - Github
 ======
+
+> [**Nach oben**](#inhaltsverzeichnis)
+
+Als erstes durften wir einen Github Account erstellen und zudem ein Git Repository erstellen. Die beiden Schritte gingen schnell und unkompliziert.
