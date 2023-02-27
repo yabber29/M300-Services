@@ -1,10 +1,10 @@
 M300 Dokumentation von Ramon Christen (yabber29)
 ==========================================================
 
-#### Lernziele
+### Lernziele
 Die nachstehende Dokumentation zeigt alle Schritte auf, die es zur Einrichtung einer vollständig funktionsfähigen Toolumgebung benötigt werden.
 
-#### Inhaltsverzeichnis
+### Inhaltsverzeichnis
 * 01 - Github
 * 02 - Git Client
 * 03 - VirtualBox
@@ -28,10 +28,10 @@ Ich hatte noch einen SSH-Key erstellt in dem Terminal. Als dieser erstellt wurde
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
 
-#### Was ist Git
+### Was ist Git
 Git ist eine weit verbreitete Open-Source-Software zur verteilten Versionskontrolle von Software. Lesen Sie hier, wie das Tool unter Windows funktioniert. Git ist ein Versionskontrollsystem, das vom Linux-Erfinder Linus Torvalds entwickelt wurde.
 
-#### Wieso wird Git oft von Programmierern gebraucht?
+### Wieso wird Git oft von Programmierern gebraucht?
 Einige Vorteile von Git
 - Paralleles Arbeiten
 - Flexibilität
@@ -41,7 +41,7 @@ Einige Vorteile von Git
 - Gemeinschaft und Freiheit
 - etc.
 
-#### Die wichtigsten Befehle in Git
+### Die wichtigsten Befehle in Git
 **Client Konfigurieren**
 
 **Repository Klonen**
