@@ -43,7 +43,11 @@ Einige Vorteile von Git
 
 ### Die wichtigsten Befehle in Git
 **Client Konfigurieren**
-
+Informationen mit Hilfe von Git ändern des GitHub Accounts
+``` 
+$ git config --global user.name "<username>"
+$ git config --global user.email "<e-mail>"
+```
 **Repository Klonen**
 **Repository clone/pull**
 **Repository Push**
