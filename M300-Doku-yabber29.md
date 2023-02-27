@@ -43,12 +43,39 @@ Einige Vorteile von Git
 
 ### Die wichtigsten Befehle in Git
 **Client Konfigurieren**
+
 Informationen mit Hilfe von Git ändern des GitHub Accounts
 ``` 
 $ git config --global user.name "<username>"
 $ git config --global user.email "<e-mail>"
 ```
-**Repository Klonen**
 **Repository clone/pull**
+
+Clone und Pull eines Reporitorys
+```
+$ git clone https://gitlab.com/ch-tbz-it/Stud/m300/
+$ cd M300           # In das Verzeichniss wechseln
+$ git pull
+```
 **Repository Push**
+
+Git push wird üblicherweise verwendet, um lokale Änderungen in einem zentralen Repository zu veröffentlichen und hochzuladen. Nachdem Änderungen an einem lokalen Repository vorgenommen wurden, werden die Änderungen per Push für Remote-Teammitglieder freigegeben.
+```
+$ git add -A
+$ git commit -m "Mein Kommentar"
+$ git push
+```
 **How to Push**
+
+Hier habe ich noch einige Befehle die man beherschen sollte. 
+```Shell 
+$  cd Pfad/zu/meinem/Repository    # Zum lokalen GitHub-Repository wechseln
+
+$  git status                      # Geänderte Datei(en) werden rot aufgelistet
+$  git add -A                      # Fügt alle Dateien zum "Upload" hinzu
+$  git status                      # Der Status ist nun grün > Dateien sind Upload-bereit (Optional) 
+$  git commit -m "Mein Kommentar"  # Upload wird "commited" > Kommentar zu Dokumentationszwecken ist dafür notwendig
+$  git status                      # Dateien werden nun als "zum Pushen bereit" angezeigt
+$  git push                        #Upload bzw. Push wird durchgeführt
+```
+
