@@ -9,7 +9,8 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die es zur Einrichtung e
 * 02 - Git Client
 * 03 - VirtualBox
 * 04 - Vagrant
-* 05 - Fazit
+* 05 - Packer
+* 10 - Fazit
 
 ---
 
@@ -104,10 +105,27 @@ Durch diesen Fehler konnte die VM nicht richtig starten und hatte dauernd einen 
 
 Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtualisierung wie VirtualBox oder VMware fernsteuern kann. Auf dem Weg ermöglicht es das automatisierte Erstellen von virtuellen Maschinen an Hand einer zuvor erzeugten Konfigurationsdatei.
 ![VM automatically installed](./Bilder/VM-Vagrant.png)
+Mit den Befehlen vagrant ssh, kann man dannach auf die erstellte VM zugreifen.
+
+**Boxen**
+Boxen in Vagrant sind Vorlagen für weitere VMs, diese können das vagrantfile als vorkonigurierte Vorlage benutzen. Der Prozess beschleunigt die Softwareverteilung sowie die Entwicklung.
+![Aktuelle Vorlagen auf meinem Lokalen Repo](./Bilder/Vagrant-box.png)
+
+Im file kann man angeben dass, z. B. Apache von anfang an installiert wird oder dass das Netzwerkinterface anderst konfiguriert wird.
+---
+
+05 - Packer
+======
+
+> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
+
+
+
 
 ---
 
-05 - Fazit
+10 - Fazit
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
