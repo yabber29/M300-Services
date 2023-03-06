@@ -109,9 +109,11 @@ Mit den Befehlen vagrant ssh, kann man dannach auf die erstellte VM zugreifen.
 
 **Boxen**
 Boxen in Vagrant sind Vorlagen für weitere VMs, diese können das vagrantfile als vorkonigurierte Vorlage benutzen. Der Prozess beschleunigt die Softwareverteilung sowie die Entwicklung.
+
 ![Aktuelle Vorlagen auf meinem Lokalen Repo](./Bilder/Vagrant-box.png)
 
 Im file kann man angeben dass, z. B. Apache von anfang an installiert wird oder dass das Netzwerkinterface anderst konfiguriert wird.
+
 ---
 
 05 - Packer
