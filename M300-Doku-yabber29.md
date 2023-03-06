@@ -9,7 +9,7 @@ Die nachstehende Dokumentation zeigt alle Schritte auf, die es zur Einrichtung e
 * 02 - Git Client
 * 03 - VirtualBox
 * 04 - Vagrant
-* 05 - Visual Studio Code
+* 05 - Fazit
 
 ---
 
@@ -107,7 +107,7 @@ Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtual
 
 ---
 
-04 - Fazit
+05 - Fazit
 ======
 
 > [⇧ **Nach oben**](#inhaltsverzeichnis)
@@ -115,3 +115,6 @@ Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtual
 **Tag 1:**
 Der erste Tag war ziemlich theoretisch, doch konnten wir zumindest einige Einblicke in das Modul bekommen. Der Einstieg war klar und ich wusste bei jedem Thema schon ein wenig.
 Die ersten Aufträge fand ich gut, da man die Systeme ausprobieren konnte und sich einen Überblick schaffen konnte. Doch einige Probleme gab es schon, zum Beispiel bei der Installation einer VM von Hand kamen einige Fehler auf mich zu, welche ich aber mit ein wenig Recherche im Internet herausfinden und lösen konnte. Das zweite Problem war bei der Installation einer VM per Vagrant, da machte mir der Antivirus einen Strich durch die Rechnung, die Domain musste ich in die trusted Domains reinschreiben, damit es erkannt wird. Der Rest funktionierte perfekt und ich konnte einiges neues dazu lernen.
+
+**Tag2:**
+Durch die Repetitionen am Anfang der
